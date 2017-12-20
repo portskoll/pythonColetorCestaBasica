@@ -27,7 +27,7 @@ def page_aprender():
 def serve_static(filename):
     return static_file(filename, root='static')
 
-
+#teste para o git
 
 bottle.debug(True)
 run(host='192.168.2.123', port=9091)
